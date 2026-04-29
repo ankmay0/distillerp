@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -i https://distillerp.onrender.com/health)",
+      "Bash(curl -s -i -X OPTIONS https://distillerp.onrender.com/auth/login -H \"Origin: https://distillerp.vercel.app\" -H \"Access-Control-Request-Method: POST\" -H \"Access-Control-Request-Headers: content-type\")"
+    ]
+  }
+}
