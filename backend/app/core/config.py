@@ -33,7 +33,6 @@ class Settings(BaseSettings):
         if self.RENDER_EXTERNAL_URL:
             origins.append(self.RENDER_EXTERNAL_URL.rstrip("/"))
         baseline = [
-            "https://distillerp.vercel.app",
             "https://distillerp-kappa.vercel.app",
             "http://localhost:5173",
             "http://127.0.0.1:5173",
